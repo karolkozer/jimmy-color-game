@@ -1,0 +1,121 @@
+@media only screen and (min-width : 1824px) {
+    
+    body {
+        font-size: 35px;
+    }
+    
+    .beardedman {
+        width: 676px;
+        position: fixed;
+        display: block;
+        top: 14%;
+        left: 0;
+    }
+    
+    .square {
+        height: 170px;
+    }
+    
+    #modal-text {
+        font-size: 400%;
+    }
+
+    #reset {
+        font-size: 200%;
+    }
+}
+
+@media only screen and (min-device-width : 1025px) and (max-width : 1224px) {
+    
+    .beardedman {
+        width: 390px;
+        top: 20.4%;
+    }
+    
+    #result-display {
+        font-size: 230%;
+    }
+    
+    #modal-text {
+        font-size: 480%;
+    }
+
+    #reset {
+        font-size: 230%;
+    }
+    
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-width : 1024px) {
+    
+    .beardedman {
+        width: 320px;
+         top: 27.6%;
+    }
+    
+    #modal-text {
+        font-size: 300%;
+    }
+
+    #reset {
+        font-size: 170%;
+    }
+    
+}
+
+@media only screen and (min-device-width : 481px) and (max-width: 767px) {
+    
+    body {
+        font-size: 16px;
+    }
+    
+    .beardedman {
+        display: none;
+    }
+    
+    #result-display {
+        padding: 55px 0;
+    }
+    
+    #modal-text {
+        font-size: 280%;
+    }
+
+    #reset {
+        font-size: 150%;
+    }
+    
+}
+
+
+@media only screen and (min-width : 320px) and (max-width: 480px) {
+    
+    body {
+        font-size: 14px
+    }
+    
+    .square {
+        height: 120px;
+    }
+    
+    .beardedman {
+        display: none;
+    }
+    
+     #result-display {
+        font-size: 250%;
+    }
+    
+    #modal-text {
+        font-size: 280%;
+    }
+
+    #reset {
+        font-size: 150%;
+    }
+    
+}
+
+
+

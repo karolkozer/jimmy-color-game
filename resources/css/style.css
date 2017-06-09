@@ -1,0 +1,154 @@
+/**************************************
+** Basic
+***************************************/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html ,body {
+    background-image: url(img/giftly.png);
+    background-position: center;
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-container {
+    margin-top: 0;
+    max-width: 100%;
+    background-color: rgba(230, 126, 34, 0.7);
+    text-align: center;
+    color: #fff;
+}
+
+/**************************************
+** Heading
+***************************************/
+h1 {
+    margin-top: 0;
+    padding: 30px 0 0px 0;
+    font-family: 'Pacifico', cursive;
+}
+
+h2 {
+    padding: 20px 0 50px 0;
+    font-size: 260%;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-transform: capitalize;
+}
+
+/**************************************
+** Button
+***************************************/
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 130%;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 0;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff9f4b;
+}
+
+/**************************************
+** Character
+***************************************/
+.beardedman {
+    width: 576px;
+    position: fixed;
+    display: block;
+    top: 2.2%;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.beardedman img {
+    width: 100%;
+}
+
+/**************************************
+** Result Box
+***************************************/
+.result-box {
+    background-color: rgba(255, 167, 135, 0.3);
+}
+
+#result-display {
+    text-align: center;
+    color: #555;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+/**************************************
+** Square Box
+***************************************/
+.square-box {
+    background-color: rgba(255, 167, 135, 0.3);
+}
+
+.square {
+    width: 25%;
+    height: 150px;
+/*    padding-bottom: 10%;*/
+    float: left;
+    background-color: purple;
+    opacity: 0.75;
+    display: block;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/**************************************
+** Modal
+***************************************/
+.modal-screen {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffb100;
+    text-align: center;
+    color: #000000;
+    overflow-x: hidden;
+    padding-top: 60px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#modal-text {
+    font-size: 600%;
+}
+
+#reset {
+    font-size: 260%;
+}
+
+
+
+
+
+
+
+
+
+
